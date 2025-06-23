@@ -1,0 +1,65 @@
+[
+  {
+    "id": "U1A2B3",
+    "name": "Priya Sharma",
+    "review": "Absolutely love the quality and finish of the dining table. Delivery was prompt and the team was very helpful.",
+    "rating": 5,
+    "location": "Mumbai"
+  },
+  {
+    "id": "C4D5E6",
+    "name": "Rahul Verma",
+    "review": "The sofa set is super comfortable and looks great in my living room. Highly recommended!",
+    "rating": 4,
+    "location": "Delhi"
+  },
+  {
+    "id": "F7G8H9",
+    "name": "Sneha Patel",
+    "review": "Ordered a bookshelf for my study. Sturdy build and easy to assemble. Will shop again.",
+    "rating": 5,
+    "location": "Prayagraj"
+  },
+  {
+    "id": "I1J2K3",
+    "name": "Amit Singh",
+    "review": "The recliner armchair is my new favorite spot at home. Great value for money.",
+    "rating": 4,
+    "location": "Bangalore"
+  },
+  {
+    "id": "L4M5N6",
+    "name": "Meera Nair",
+    "review": "Kids study desk is colorful and functional. My daughter loves it!",
+    "rating": 5,
+    "location": "Kochi"
+  },
+  {
+    "id": "O7P8Q9",
+    "name": "Vikram Joshi",
+    "review": "Wardrobe is spacious and the mirror is a nice touch. Installation was quick.",
+    "rating": 4.5,
+    "location": "Pune"
+  },
+  {
+    "id": "R1S2T3",
+    "name": "Anjali Desai",
+    "review": "Coffee table is elegant and fits perfectly in my space. Good purchase experience.",
+    "rating": 5,
+    "location": "Surat"
+  },
+  {
+    "id": "U4V5W6",
+    "name": "Siddharth Sharma",
+    "review": "Outdoor patio set is sturdy and weather-resistant as promised. Perfect for our terrace.",
+    "rating": 5,
+    "location": "Hyderabad"
+  },
+  {
+    "id": "U908K6",
+    "name": "Balwantsingh Chundawat",
+    "review": "Outdoor patio set is sturdy and weather-resistant as promised. Perfect for our terrace. Would definitely recommend",
+    "rating": 5,
+    "location": "Rajasthan"
+  }
+]

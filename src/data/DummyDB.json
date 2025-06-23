@@ -1,0 +1,164 @@
+{
+    "furniture": [
+        {
+            "id": "A1B2C3",
+            "name": "Oak Dining Table",
+            "description": "A sturdy oak dining table for 6 people.",
+            "price": 7,
+            "image": "img1.jpg",
+            "category": {
+                "name": "Dining",
+                "type": "Table"
+            },
+            "dimensions": {
+                "length": "180cm",
+                "width": "90cm",
+                "height": "75cm"
+            }
+        },
+        {
+            "id": "D4E5F6",
+            "name": "Modern Sofa Set",
+            "description": "Comfortable L-shaped fabric sofa.",
+            "price": 9,
+            "image": "img2.jpg",
+            "category": {
+                "name": "Living Room",
+                "type": "Sofa"
+            },
+            "dimensions": {
+                "length": "250cm",
+                "width": "150cm",
+                "height": "85cm"
+            }
+        },
+        {
+            "id": "G7H8I9",
+            "name": "Study Chair",
+            "description": "Ergonomic chair with adjustable height.",
+            "price": 4,
+            "image": "img3.jpg",
+            "category": {
+                "name": "Office",
+                "type": "Chair"
+            },
+            "dimensions": {
+                "length": "60cm",
+                "width": "60cm",
+                "height": "100cm"
+            }
+        },
+        {
+            "id": "J1K2L3",
+            "name": "Bedside Table",
+            "description": "Compact table with drawer and shelf.",
+            "price": 3,
+            "image": "img4.jpg",
+            "category": {
+                "name": "Bedroom",
+                "type": "Table"
+            },
+            "dimensions": {
+                "length": "45cm",
+                "width": "35cm",
+                "height": "50cm"
+            }
+        },
+        {
+            "id": "M4N5O6",
+            "name": "Bookshelf",
+            "description": "5-tier open bookshelf made of engineered wood.",
+            "price": 6,
+            "image": "img5.jpg",
+            "category": {
+                "name": "Study",
+                "type": "Shelf"
+            },
+            "dimensions": {
+                "length": "80cm",
+                "width": "30cm",
+                "height": "180cm"
+            }
+        },
+        {
+            "id": "P7Q8R9",
+            "name": "Recliner Armchair",
+            "description": "Plush recliner with adjustable backrest and footrest.",
+            "price": 8,
+            "image": "img6.jpg",
+            "category": {
+                "name": "Living Room",
+                "type": "Chair"
+            },
+            "dimensions": {
+                "length": "90cm",
+                "width": "85cm",
+                "height": "105cm"
+            }
+        },
+        {
+            "id": "S1T2U3",
+            "name": "Glass Coffee Table",
+            "description": "Minimalist coffee table with tempered glass top.",
+            "price": 5,
+            "image": "img7.jpg",
+            "category": {
+                "name": "Living Room",
+                "type": "Table"
+            },
+            "dimensions": {
+                "length": "110cm",
+                "width": "60cm",
+                "height": "45cm"
+            }
+        },
+        {
+            "id": "V4W5X6",
+            "name": "Wardrobe",
+            "description": "3-door wardrobe with mirror and drawers.",
+            "price": 10,
+            "image": "img8.jpg",
+            "category": {
+                "name": "Bedroom",
+                "type": "Wardrobe"
+            },
+            "dimensions": {
+                "length": "150cm",
+                "width": "60cm",
+                "height": "200cm"
+            }
+        },
+        {
+            "id": "Y7Z8A9",
+            "name": "Kids Study Desk",
+            "description": "Colorful desk with storage for kids.",
+            "price": 4,
+            "image": "img9.jpg",
+            "category": {
+                "name": "Kids Room",
+                "type": "Desk"
+            },
+            "dimensions": {
+                "length": "100cm",
+                "width": "55cm",
+                "height": "75cm"
+            }
+        },
+        {
+            "id": "B1C2D3",
+            "name": "Outdoor Patio Set",
+            "description": "Weather-resistant patio set with 4 chairs and table.",
+            "price": 12,
+            "image": "img10.jpg",
+            "category": {
+                "name": "Outdoor",
+                "type": "Set"
+            },
+            "dimensions": {
+                "length": "180cm",
+                "width": "90cm",
+                "height": "75cm"
+            }
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+.Navbar{
+    
+    /* z-index: 1000; */
+
+    position:fixed;
+    top: 0px;
+
+    color: rgb(243, 146, 56);
+    border: 1px black dashed;
+    
+    height: 75px;
+    width: 100%;
+}
