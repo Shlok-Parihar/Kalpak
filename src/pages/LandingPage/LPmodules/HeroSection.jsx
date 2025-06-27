@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../modules/commonCSS.css"
+import styles from "../LPmodules/commonCSS.css"
 const HeroSection = () => {
 
     return <>
