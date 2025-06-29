@@ -1,18 +1,24 @@
 /* Footer Section Css Begins Here. */
+.Footer, .Footer > * {
+  box-sizing: border-box;
+}
+
 .Footer{
     position:fixed;
     bottom: 0px;
 
-    margin:0px;
     padding: 40px;
-    color: #D6B370;
-    height: 200px;
+    padding-right: 10px;
+    color: #4E342E;
+    height: 300px;
     width: 100%;
-    background-color: #2A2A2A;
+    background-color: #F5F5F3;
     
     display: flex;
     flex-direction: row;
     gap: 90px;
+
+    justify-content: space-evenly; 
 }
 #FooterText{
     font-family:"serif";

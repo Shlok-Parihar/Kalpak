@@ -1,26 +1,28 @@
 .Navbar {
+  z-index: 1000;
+  padding: 5px;
 
-    z-index: 1000;
-    padding: 5px;
+  position: fixed;
+  top: 0px;
 
-    position: fixed;
-    top: 0px;
+  color: rgb(243, 146, 56);
+  border: 1px black dashed;
+  background-color: rgba(250, 250, 250, 0.2);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 
-    color: rgb(243, 146, 56);
-    border: 1px black dashed;
-    background-color: rgba(250, 250, 250, 0.2);
-    backdrop-filter: blur(8px);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+  height: 50px;
+  width: 100%;
 
-    height: 50px;
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.navbarThings{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
-    
+.navbarThings {
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: Garamond, serif;
+  font-weight: 500;
+  font-size: larger;
+
+  margin: 10px;
 }

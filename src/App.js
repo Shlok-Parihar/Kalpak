@@ -1,4 +1,3 @@
-
 import "./App.css";
 import ProductCard from "./components/ProductCard/ProductCard";
 import LandingPage from "./pages/LandingPage/LandingPage";
@@ -8,12 +7,13 @@ import LandingPage from "./pages/LandingPage/LandingPage";
 
 function App() {
   return (
-    <div className="App">
-      <LandingPage />
-      {/* <ProductsPage />
+    
+      <div className="App">
+        <LandingPage />
+        {/* <ProductsPage />
       <CartPage />
       <CheckoutPage /> */}
-    </div>
+      </div>
   );
 }
 
