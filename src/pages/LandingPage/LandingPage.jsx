@@ -6,6 +6,7 @@ import Products from "./LPmodules/Products.jsx";
 // import Testimonials from "./LPmodules/Testimonials.jsx";
 // import ContactUs from "./LPmodules/ContactUs.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
+import styles from "./LandingPage.css"
 
 // import HeroSection from "./LPmodules/HeroSection.jsx";
 
@@ -25,12 +26,14 @@ const LandingPage = () => {
     
     return <>
 
-    <NavBar/>
-    <HeroSection/>
-    <Products/>
-    {/* <Testimonials/>
-    <ContactUs/> */}
-    <Footer/>
+     <div className="LandingPageContainer">
+            <NavBar/>
+            <HeroSection/>
+            <Products/>
+            {/* <Testimonials/> */}
+            {/* <ContactUs/> */}
+            <Footer/>
+        </div>
     
     </>
 }

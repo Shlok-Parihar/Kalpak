@@ -4,11 +4,10 @@
 }
 
 .Footer{
-    position:fixed;
+    /* position:fixed; */
     bottom: 0px;
 
     padding: 40px;
-    padding-right: 10px;
     color: #4E342E;
     height: 300px;
     width: 100%;
