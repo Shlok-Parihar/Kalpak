@@ -25,7 +25,7 @@ const HeroSection = () => {
         <div className="HeroSection">
             {/* <h1>Hero Section</h1> */}
 
-            <Carousel play={5000} wrap>
+            <Carousel wrap>
                 <Box
                     fill
                     align="center"
