@@ -1,18 +1,46 @@
-.ProductImage{
+.ProductImage {
     border: 1px solid black;
     border-radius: 5px;
 }
-.ProductCard{
-    display: grid;
+
+.ProductCard {
+    /* display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
+     */
+
+    position: relative;
+    border: black 2px solid;
+    border-radius: 22px;
+    box-shadow: 2px 2px 8px rgba(45, 45, 45, 0.7);
+
+
+    height: 70vh;
+    min-height: 70vh;
+    width: 25vw;
+    min-width: 25vw;
+    margin: 20px;
+
 }
+
+.prodButton {
+    border-radius: 50%;
+    background-color: #778A6B;
+    /* backdrop-filter: blur(10px); */
+    height: 60px;
+    width: 60px;
+    box-shadow: 2px 2px 4px rgba(45, 45, 45, 0.8);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
 
 .ProductCarditem {
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     padding: 16px;
     display: flex;
     justify-content: center;

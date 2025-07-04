@@ -10,6 +10,13 @@
     width: 100%;
 }
 
+.ProductPageScroll{
+    overflow-x: scroll;
+    display: "flex";
+    height: "90vh";
+
+}
+
 
 
 
