@@ -5,7 +5,7 @@
             "name": "Oak Dining Table",
             "description": "A sturdy oak dining table for 6 people.",
             "price": 7,
-            "image": "../images/Product_Images/Oak_Dining_Table.jpg",
+            "image": "/images/Product_Images/Oak_Dining_Table.jpg",
             "category": {
                 "name": "Dining",
                 "type": "Table"
@@ -21,7 +21,7 @@
             "name": "Modern Sofa Set",
             "description": "Comfortable L-shaped fabric sofa.",
             "price": 9,
-            "image": "../images/Product_Images/Modern_Sofa_Set.jpg",
+            "image": "images/Product_Images/Modern_Sofa_Set.jpg",
             "category": {
                 "name": "Living Room",
                 "type": "Sofa"
@@ -37,7 +37,7 @@
             "name": "Study Chair",
             "description": "Ergonomic chair with adjustable height.",
             "price": 4,
-            "image": "../images/Product_Images/Study_Chair.jpg",
+            "image": "images/Product_Images/Study_Chair.jpg",
             "category": {
                 "name": "Office",
                 "type": "Chair"
@@ -53,7 +53,7 @@
             "name": "Bedside Table",
             "description": "Compact table with drawer and shelf.",
             "price": 3,
-            "image": "../images/Product_Images/Bedside_Table.jpg",
+            "image": "images/Product_Images/Bedside_Table.jpg",
             "category": {
                 "name": "Bedroom",
                 "type": "Table"
@@ -69,7 +69,7 @@
             "name": "Bookshelf",
             "description": "5-tier open bookshelf made of engineered wood.",
             "price": 6,
-            "image": "../images/Product_Images/Bookshelf.jpg",
+            "image": "images/Product_Images/Bookshelf.jpg",
             "category": {
                 "name": "Study",
                 "type": "Shelf"
@@ -85,7 +85,7 @@
             "name": "Recliner Armchair",
             "description": "Plush recliner with adjustable backrest and footrest.",
             "price": 8,
-            "image": "../images/Product_Images/Recliner_Armchair.jpg",
+            "image": "images/Product_Images/Recliner_Armchair.jpg",
             "category": {
                 "name": "Living Room",
                 "type": "Chair"
@@ -101,7 +101,7 @@
             "name": "Glass Coffee Table",
             "description": "Minimalist coffee table with tempered glass top.",
             "price": 5,
-            "image": "../images/Product_Images/Glass_Coffee_Table.jpg",
+            "image": "images/Product_Images/Glass_Coffee_Table.jpg",
             "category": {
                 "name": "Living Room",
                 "type": "Table"
@@ -117,7 +117,7 @@
             "name": "Wardrobe",
             "description": "3-door wardrobe with mirror and drawers.",
             "price": 10,
-            "image": "../images/Product_Images/Wardrobe.jpg",
+            "image": "images/Product_Images/Wardrobe.jpg",
             "category": {
                 "name": "Bedroom",
                 "type": "Wardrobe"
@@ -133,7 +133,7 @@
             "name": "Kids Study Desk",
             "description": "Colorful desk with storage for kids.",
             "price": 4,
-            "image": "../images/Product_Images/Kids_Study_Desk.jpg",
+            "image": "images/Product_Images/Kids_Study_Desk.jpg",
             "category": {
                 "name": "Kids Room",
                 "type": "Desk"
@@ -149,7 +149,7 @@
             "name": "Outdoor Patio Set",
             "description": "Weather-resistant patio set with 4 chairs and table.",
             "price": 12,
-            "image": "../images/Product_Images/Outdoor_Patio_Set.jpg",
+            "image": "images/Product_Images/Outdoor_Patio_Set.jpg",
             "category": {
                 "name": "Outdoor",
                 "type": "Set"

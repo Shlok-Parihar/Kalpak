@@ -6,7 +6,7 @@
   border: none;
   outline: none;
   border-radius: 18px;
-  background: url('../../images/image.png') center/cover no-repeat;
+  background: url('../../../public/images/image.png') center/cover no-repeat;
   box-shadow: 8px 12px 24px 4px rgba(60,40,20,0.32), 2px 2px 0 #b08d57;
   position: relative;
   cursor: pointer;

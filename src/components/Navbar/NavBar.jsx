@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Navbar.css"
-import logo from "../../images/logo.png";
 import FluidGlass from '../FluidBar/FluidGlass'
 
 const Navbar = () => {
@@ -47,7 +46,7 @@ const Navbar = () => {
 
 
     <div className={`Navbar${dark ? " dark" : " light"}`}>
-      <img src={logo} alt="logo" height={50} width={60} />
+      <img src="/images/logo.png" alt="logo" height={50} width={60} />
 
       <div style={{ alignContent: "center", justifyContent: "center" }}>
         <a className="navbarThings" href="#home">Home</a>

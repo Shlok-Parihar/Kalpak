@@ -3,7 +3,8 @@ import React,{useState, useEffect} from 'react';
 import NavBar from "../../components/Navbar/NavBar.jsx";
 import HeroSection from "./LPmodules/HeroSection.jsx";
 import Products from "./LPmodules/Products.jsx";
-// import Testimonials from "./LPmodules/Testimonials.jsx";
+import Founder from './LPmodules/Founder.jsx';
+import Testimonials from "./LPmodules/Testimonials.jsx";
 // import ContactUs from "./LPmodules/ContactUs.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import styles from "./LandingPage.css"
@@ -20,8 +21,9 @@ const LandingPage = () => {
      <div className="LandingPageContainer">
             <NavBar/>
             <HeroSection/>
+            <Founder/>
             <Products/>
-            {/* <Testimonials/> */}
+            <Testimonials/>
             {/* <ContactUs/> */}
             <Footer/>
         </div>

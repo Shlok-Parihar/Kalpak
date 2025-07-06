@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./Footer.css";
-import logo from "../../images/logo.png";
-import map from "../../images/location.jpg";
+
 
 const Footer = () => {
   return (
     <>
       <div className="Footer">
-        <img className="Logo" src={logo} alt="Logo" />
+        <img className="Logo" src="/images/logo.png" alt="Logo"/>
 
         <div>
           <div>
@@ -78,7 +77,7 @@ const Footer = () => {
         </div>
 
         <div>
-          <img src={map} alt="location" height="210px" width="350px" />
+          <img src="/images/location.jpg" alt="location" height="210px" width="350px" />
         </div>
       </div>
     </>

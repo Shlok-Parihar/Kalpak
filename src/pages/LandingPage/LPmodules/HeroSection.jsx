@@ -5,16 +5,12 @@ import { Button } from "antd";
 // import bedRoomImg from "../../../images/Bedroom.png"
 // import livingRoomImg from "../../../images/Living Room.png"
 // import kitchenImg from "../../../images/Kitchen.png"
-import lvRoom from "../../../images/heroSectionCarousel-1.jpg"
 // import lvRoom2 from "../../../images/heroSectionCarousel-2.jpg"
-import kitchRoom from "../../../images/herosectionCarousel-3.jpg"
-import bedRoom from "../../../images/herosectionCarousel-4.jpg"
-import wardRobe from "../../../images/herosectionCarousel-5.jpg"
 import { useScroll } from "framer-motion";
 import WoodenButton from "../../../components/WoodenButton/woodenButton";
 import ScrollVelocity from '../../../components/ReactBits/ScrollVelocity';
 import ShinyText from '../../../components/ReactBits/ShinyText';
-import wood from "../../../images/image.png"
+import wood from "../../.."
 
 const HeroSection = () => {
 
@@ -32,7 +28,7 @@ const HeroSection = () => {
                     justify="center"
                     background="light-3"
                     height="large">
-                    <Image src={bedRoom} fit="cover"
+                    <Image src="/images/herosectionCarousel-4.jpg" fit="cover"
                         height="750px"
                         width="920px" />
                 </Box>
@@ -42,7 +38,7 @@ const HeroSection = () => {
                     background="light-3"
                     height="large">
                     <Image
-                        src={lvRoom}
+                        src="/images/heroSectionCarousel-1.jpg"
                         fit="cover"
                         height="750px"
                         width="920px" />
@@ -53,7 +49,7 @@ const HeroSection = () => {
                     background="light-4"
                     height="large">
                     <Image
-                        src={kitchRoom}
+                        src="/images/herosectionCarousel-3.jpg"
                         fit="cover"
                         height="750px"
                         width="920px" />
@@ -64,7 +60,7 @@ const HeroSection = () => {
                     background="light-4"
                     height="large">
                     <Image
-                        src={wardRobe}
+                        src="/images/herosectionCarousel-5.jpg"
                         fit="cover"
                         height="750px"
                         width="920px" />
@@ -83,7 +79,7 @@ const HeroSection = () => {
                     fontSize: "2rem",
                     fontFamily: "Garamond, serif",
                     background: "rgb(97, 54, 42)",
-                    backgroundImage: `url(${wood})`,
+                    backgroundImage: `url(/images/image.png)`,
                     zIndex: z,
                     position: "relative",
                     transform: "translate(495px, -125px)"
