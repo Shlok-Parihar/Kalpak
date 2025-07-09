@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "./ProductPage.css"
+import "../ProductPage/ProductsPage.css"
 
 const namey = () => {
     return <>

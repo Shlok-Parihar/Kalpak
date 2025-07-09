@@ -32,8 +32,22 @@ const Testimonials = () => {
             spotlightColor="rgba(193, 154, 107, 0.4)"
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <img src="/images/daryl.jpg" alt="person image" />
-              <p>
+              <img src="/images/People/daryl.jpg" alt="person image" className="testimonialsImage" />
+              <p className="testimonialText">
+                "hi there this is my testimonials. Lorem ipsum dolor sit amet,
+                consectetur adipisicing elit. Voluptates rem doloremque illo
+                voluptatem?"
+              </p>
+            </div>
+          </SpotlightCard>
+
+          <SpotlightCard
+            className="custom-spotlight-card"
+            spotlightColor="rgba(193, 154, 107, 0.4)"
+          >
+            <div style={{ display: "flex", flexDirection: "column"  }}>
+              <img src="/images/People/denzel.jpg" alt="person image" className="testimonialsImage" />
+              <p className="testimonialText">
                 "hi there this is my testimonials. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit. Voluptates rem doloremque illo
                 voluptatem?"
@@ -46,22 +60,8 @@ const Testimonials = () => {
             spotlightColor="rgba(193, 154, 107, 0.4)"
           >
             <div style={{ display: "flex", flexDirection: "column" }}>
-              <img src="/images/daryl.jpg" alt="person image" />
-              <p>
-                "hi there this is my testimonials. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Voluptates rem doloremque illo
-                voluptatem?"
-              </p>
-            </div>
-          </SpotlightCard>
-
-          <SpotlightCard
-            className="custom-spotlight-card"
-            spotlightColor="rgba(193, 154, 107, 0.4)"
-          >
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <img src="/images/daryl.jpg" alt="person image" />
-              <p>
+              <img src="/images/People/ruby.jpg" alt="person image" className="testimonialsImage"/>
+              <p className="testimonialText">
                 "hi there this is my testimonials. Lorem ipsum dolor sit amet,
                 consectetur adipisicing elit. Voluptates rem doloremque illo
                 voluptatem?"

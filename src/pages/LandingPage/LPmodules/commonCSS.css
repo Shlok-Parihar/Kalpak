@@ -22,6 +22,18 @@
     margin:20px;
 }
 
+.testimonialText{
+    color: #F5F5F3;
+}
+
+.testimonialsImage{
+    border-radius: 50%;
+    border: 1px solid gray;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
 
 
 
