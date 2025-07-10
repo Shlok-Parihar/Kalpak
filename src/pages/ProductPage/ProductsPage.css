@@ -2,15 +2,26 @@
     padding: 10px;
 }
 
-#one{
-background: #e14c4c;
-width: 55vw;
+#one {
+    background: #e14c4c;
+    width: 55vw;
+
+    border-radius: 5px;
+    border: rgba(61, 61, 61, 0.582) solid 1px;
+    box-shadow: 2px 3px 8px rgba(93, 81, 81, 0.3);
 }
 
-#two{
-background: #4ce1e1;
-width: 35vw;
-position: relative;
+#two {
+    background: #aaf2f2;
+    width: 35vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    border-radius: 5px;
+    border: gray solid 1px;
+    box-shadow: 2px 3px 8px rgba(93, 81, 81, 0.3);
+
 }
 
 .CartButton {
@@ -18,23 +29,13 @@ position: relative;
     /* Green */
     border: none;
     color: black;
-    padding: 10px 20px;
+    padding: 10px;
+    font-size: large;
 
     border-radius: 8px;
 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    /* font-size: 16px; */
-
-    margin: 4px 2px;
+    margin: 3px;
     cursor: pointer;
-    font-family: "Times New Roman";
-    font-size: 40px;
-
-    display: flex;
-    flex-direction: row;
-
 }
 
 .ProductDetails {
@@ -43,14 +44,12 @@ position: relative;
     gap: 10px;
 
     justify-content: center;
-    align-items: center;
+    align-items: start;
     padding: 10px;
 
     position: relative;
 }
 
 .nameID {
-    position: absolute;
-    right: 30px;
-    top: 30px;
+    padding: 15px;
 }
