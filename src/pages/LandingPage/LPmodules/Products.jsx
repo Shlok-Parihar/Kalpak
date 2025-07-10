@@ -14,21 +14,22 @@ const Products = () => {
                 marginBottom: "5px",
                 borderColor: "#C97B3A"
             }}>
-                <h2 style={{ fontFamily: "garamond", fontWeight: "bold", fontSize:"40px" }}>Our Products</h2>
+                <h2 style={{ fontFamily: "garamond", fontWeight: "bold", fontSize: "40px" }}>Our Products</h2>
             </Divider>
 
             <div className="ProductPageScroll" style={{ height: "80vh", display: "flex", flexDirection: "row", overflowX: "auto" }}>
                 {
-                    products.furniture.map((p)=>(
+                    products.furniture.map((p) => (
                         <ProductCard
-                        key={p.id}
-                        dimension={`${p.dimensions.length} x ${p.dimensions.width} x ${p.dimensions.height}`}
-                        image={p.image}
-                        name={p.name}
+                            id={p.id}
+                            dimension={`${p.dimensions.length} x ${p.dimensions.width} x ${p.dimensions.height}`}
+                            image={p.image}
+                            name={p.name}
+                            link={`/products/${p.id}`}
                         />
                     ))
                 }
-                
+
                 {/* <ProductCard />
                 <ProductCard />
                 <ProductCard />
