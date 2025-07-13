@@ -58,7 +58,7 @@ const ProductCard = ({ id, name, image, dimension }) => {
 
   return (
     <div className="ProductCard">
-      <h4>{name}</h4>
+      <h4 style={{textAlign:"center"}}>{name}</h4>
       <img src={image} alt={name} className="prodImage" />
       <button
         className="prodButton"
@@ -72,3 +72,26 @@ const ProductCard = ({ id, name, image, dimension }) => {
 };
 
 export default ProductCard;
+
+
+/*
+<html>
+<head>
+<style>
+.test{
+color:"red";
+}
+#test{
+color:"green";
+} // id has more prioirty and this is how i f*ed up.
+.test{
+color:"white";
+}
+</style>
+</head>
+<body>
+  <h1 class="test" id="test">Heading</h1>
+</body>
+</html>
+
+*/
