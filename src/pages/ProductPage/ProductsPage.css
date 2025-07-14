@@ -12,16 +12,24 @@
 }
 
 #two {
-    background: #aaf2f2;
+    /* background: #aaf2f2; */
     width: 35vw;
     position: relative;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     border-radius: 5px;
     border: gray solid 1px;
     box-shadow: 2px 3px 8px rgba(93, 81, 81, 0.3);
 
+}
+
+#test {
+    font-family: "garamond";
+    font-size: 32px;
+    align-items: center;
+    display: grid;
+    flex-direction: row;
 }
 
 .CartButton {
@@ -31,7 +39,7 @@
     color: black;
     padding: 10px;
     font-size: large;
-
+    min-width: 35%;
     border-radius: 8px;
 
     margin: 3px;
@@ -52,4 +60,19 @@
 
 .nameID {
     padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.priceCart {
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.description {
+    margin: 60px;
 }

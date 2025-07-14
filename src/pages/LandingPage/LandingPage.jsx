@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 import NavBar from "../../components/Navbar/NavBar.jsx";
 import HeroSection from "./LPmodules/HeroSection.jsx";
@@ -15,19 +15,25 @@ import styles from "./LandingPage.css"
 const LandingPage = () => {
     // const [loading, setLoading] = useState(false)
     // const [error, setError] = useState(false)
-    
+
+    useEffect(() => {
+        window.scrollTo({top:"0", behavior:"smooth"})
+    },[])
     return <>
 
-     <div className="LandingPageContainer">
-            <NavBar/>
-            <HeroSection/>
-            <Founder/>
-            <Products/>
-            <Testimonials/>
+        <div className="LandingPageContainer">
+
+
+            <div><NavBar /></div>
+            <div id="home"><HeroSection /></div>
+            <div id="products"><Products /></div>
+            <div id="founder"><Founder /></div>
+            <div id="testimonials"><Testimonials /></div>
+            <div id="contactUs"><Footer /></div>
             {/* <ContactUs/> */}
-            <Footer/>
+            
         </div>
-    
+
     </>
 }
 

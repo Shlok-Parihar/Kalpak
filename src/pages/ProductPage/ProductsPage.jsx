@@ -13,23 +13,24 @@ const ProductPage = (p) => {
         <div id='prodContainerMain'>
             <div className='ProductDetails'>
                 <div id='one'>
-                    <img src={product.image} alt="" height={400} width={600} />
+                    <img src={product.image} alt="product image" height={600} width={600} />
                 </div>
 
                 <div id='two'>
                     <div className='nameID'>
-                        <h2>{product.name}</h2>
-                        <h4>Product ID: {product.id}</h4>
+                        <div>
+                            <h2>{product.name}</h2>
+                            <h4>Product ID: {product.id}</h4>
+                        </div>
+                        <p style={{ maxWidth: "50%" }}>{product.description}</p>
                     </div>
-                    <p>{product.description}</p>
                     <div className='priceCart'>
-                        <p><b>{product.price}</b></p>
+                        <h3>Price : Rs. {product.price}</h3>
                         <button onClick={message.success} className='CartButton'>
-                            <span>Add to</span> <img src="/images/cart.png" alt="CartIcon" height={50} width={50} />
+                            <span id="test">Add to</span> <img src="/images/cart.png" alt="CartIcon" height={50} width={50} />
                         </button>
                     </div>
                 </div>
-
             </div>
         </div>
     </>

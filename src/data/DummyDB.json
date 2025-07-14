@@ -3,7 +3,7 @@
         {
             "id": "A1B2C3",
             "name": "Oak Dining Table",
-            "description": "A sturdy oak dining table for 6 people.",
+            "description": "A sturdy and elegantly crafted oak dining table, perfect for seating up to 6 people. Its solid construction ensures durability and a timeless appeal for your dining area.",
             "price": 7,
             "image": "/images/Product_Images/Oak_Dining_Table.jpg",
             "category": {
@@ -19,7 +19,7 @@
         {
             "id": "D4E5F6",
             "name": "Modern Sofa Set",
-            "description": "Comfortable L-shaped fabric sofa.",
+            "description": "A supremely comfortable L-shaped fabric sofa set, designed with modern aesthetics to complement any living space. Its plush cushions and ample seating provide ultimate relaxation.",
             "price": 9,
             "image": "images/Product_Images/Modern_Sofa_Set.jpg",
             "category": {
@@ -35,7 +35,7 @@
         {
             "id": "G7H8I9",
             "name": "Study Chair",
-            "description": "Ergonomic chair with adjustable height.",
+            "description": "An ergonomic study chair featuring comprehensive adjustability for height and back support, ensuring optimal comfort during long hours of work or study. Its design promotes good posture and reduces strain.",
             "price": 4,
             "image": "images/Product_Images/Study_Chair.jpg",
             "category": {
@@ -51,7 +51,7 @@
         {
             "id": "J1K2L3",
             "name": "Bedside Table",
-            "description": "Compact table with drawer and shelf.",
+            "description": "A compact and functional bedside table, perfect for smaller spaces. It includes a convenient drawer for discreet storage and an open shelf for easy access to your essentials.",
             "price": 3,
             "image": "images/Product_Images/Bedside_Table.jpg",
             "category": {
@@ -67,7 +67,7 @@
         {
             "id": "M4N5O6",
             "name": "Bookshelf",
-            "description": "5-tier open bookshelf made of engineered wood.",
+            "description": "A versatile 5-tier open bookshelf crafted from durable engineered wood, offering ample space for organizing books, decorative items, and more. Its open design allows for easy access and a contemporary look.",
             "price": 6,
             "image": "images/Product_Images/Bookshelf.jpg",
             "category": {
@@ -83,7 +83,7 @@
         {
             "id": "P7Q8R9",
             "name": "Recliner Armchair",
-            "description": "Plush recliner with adjustable backrest and footrest.",
+            "description": "A luxurious and plush recliner armchair designed for ultimate relaxation. It features an easily adjustable backrest and an integrated footrest, allowing you to find your perfect lounging position.",
             "price": 8,
             "image": "images/Product_Images/Recliner_Armchair.jpg",
             "category": {
@@ -99,7 +99,7 @@
         {
             "id": "S1T2U3",
             "name": "Glass Coffee Table",
-            "description": "Minimalist coffee table with tempered glass top.",
+            "description": "A sleek and minimalist coffee table featuring a durable tempered glass top, perfect for adding a touch of modern elegance to your living room. Its transparent surface creates an open and airy feel.",
             "price": 5,
             "image": "images/Product_Images/Glass_Coffee_Table.jpg",
             "category": {
@@ -115,7 +115,7 @@
         {
             "id": "V4W5X6",
             "name": "Wardrobe",
-            "description": "3-door wardrobe with mirror and drawers.",
+            "description": "A spacious and highly functional 3-door wardrobe, offering extensive storage solutions for your bedroom. It includes a full-length mirror and multiple drawers for organized clothing and accessories.",
             "price": 10,
             "image": "images/Product_Images/Wardrobe.jpg",
             "category": {
@@ -131,7 +131,7 @@
         {
             "id": "Y7Z8A9",
             "name": "Kids Study Desk",
-            "description": "Colorful desk with storage for kids.",
+            "description": "A vibrant and colorful study desk specifically designed for children, featuring integrated storage compartments to help keep their study area neat and organized. It's the perfect size for homework and creative activities.",
             "price": 4,
             "image": "images/Product_Images/Kids_Study_Desk.jpg",
             "category": {
@@ -147,7 +147,7 @@
         {
             "id": "B1C2D3",
             "name": "Outdoor Patio Set",
-            "description": "Weather-resistant patio set with 4 chairs and table.",
+            "description": "A durable and weather-resistant outdoor patio set, perfect for entertaining or relaxing in your garden or on your balcony. It includes four comfortable chairs and a matching table, built to withstand the elements.",
             "price": 12,
             "image": "images/Product_Images/Outdoor_Patio_Set.jpg",
             "category": {
