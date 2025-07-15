@@ -3,30 +3,30 @@
 
 
 /* HeroSection Css Begins Here. */
-.HeroSection{
+.HeroSection {
     margin-top: 60px;
     background-color: antiquewhite;
     height: auto;
     width: 100%;
 }
 
-.ProductPageScroll{
+.ProductPageScroll {
     overflow-x: scroll;
     display: "flex";
     height: "90vh";
 }
 
-.custom-spotlight-card{
+.custom-spotlight-card {
     height: 40vh;
-    width:25vw;
-    margin:20px;
+    width: 25vw;
+    margin: 20px;
 }
 
-.testimonialText{
+.testimonialText {
     color: #F5F5F3;
 }
 
-.testimonialsImage{
+.testimonialsImage {
     border-radius: 50%;
     border: 1px solid gray;
     height: 100px;
@@ -34,16 +34,57 @@
     align-self: center;
 }
 
+/* WhyChooseUs Section CSS */
 
-
-.WCU_Main{
+.WCU_Main {
     padding: 20px;
 }
 
+.info,
+#cards1,
+#cards2,
+#cards3,
+#cards4,
+#cards5 {
 
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: #3900d7 solid 2px;
+    text-align: center;
+    max-width: 10vw;
 
+}
 
+#cards1{
+    justify-self: center;
+}
 
+.InfoCardsGrid2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.InfoCardsGrid3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+#cards1{
+    justify-self: center;
+}
+#cards1{
+    justify-self: center;
+}
 
+.InfoCardsGrid {
+    grid-template-columns: 3 repeat(2fr, 1fr, 2fr);
+    grid-template-rows: 2 repeat(1fr, 1fr);
+}
 
+.InfoCardContainer {
+    display: flex;
+    flex-direction: row;
+}
