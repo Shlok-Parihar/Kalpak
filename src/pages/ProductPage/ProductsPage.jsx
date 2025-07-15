@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom"
 import prod from "../../data/DummyDB.json"
+import Testimonials from "../LandingPage/LPmodules/Testimonials"
+import WhyChooseUs from "../LandingPage/LPmodules/WhyChooseUs"
 import "../ProductPage/ProductsPage.css"
-import { message } from 'antd';
+import { message, Rate } from 'antd';
 
 const ProductPage = (p) => {
     const { id } = useParams();
@@ -13,25 +15,41 @@ const ProductPage = (p) => {
         <div id='prodContainerMain'>
             <div className='ProductDetails'>
                 <div id='one'>
-                    <img src={product.image} alt="product image" height={600} width={600} />
+                    <img src={product.image} alt="product image" className='prod_Image' />
                 </div>
 
-                <div id='two'>
-                    <div className='nameID'>
-                        <div>
-                            <h2>{product.name}</h2>
-                            <h4>Product ID: {product.id}</h4>
+                <div className='prodInfo'>
+                    <div id='two'>
+                        <div className='nameID'>
+                            <div>
+                                <h2>{product.name}</h2>
+                                <h4>Product ID: {product.id}</h4>
+                            </div>
+                            <p style={{ maxWidth: "50%" }}>{product.description}</p>
                         </div>
-                        <p style={{ maxWidth: "50%" }}>{product.description}</p>
+                        <div className='priceCart'>
+                            <h3>Price : Rs. {product.price}</h3>
+                            <button onClick={() => message.success("Added to cart")} className='CartButton'>
+                                <span id="test">Add to</span> <img src="/images/cart.png" alt="CartIcon" height={50} width={50} />
+                            </button>
+                        </div>
                     </div>
-                    <div className='priceCart'>
-                        <h3>Price : Rs. {product.price}</h3>
-                        <button onClick={message.success} className='CartButton'>
-                            <span id="test">Add to</span> <img src="/images/cart.png" alt="CartIcon" height={50} width={50} />
-                        </button>
+                    <div id='three'>
+
+                        <div className='Rating'>
+                            <img src='/images/People/daryl.jpg' alt='customer_image' className='Cust_Img' />
+                            <Rate disabled defaultValue={4.5} />
+                        </div>
+
+                        <div className='Review'>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, nulla cupiditate minima doloremque hic rem
+                                similique voluptas libero officia recusandae consequatur vero dignissimos!</p>
+                        </div>
                     </div>
                 </div>
             </div>
+            <WhyChooseUs />
+            <Testimonials />
         </div>
     </>
 }

@@ -4,7 +4,8 @@
 
 #one {
     background: #e14c4c;
-    width: 55vw;
+    width: 60vw;
+    height: 90vh;
 
     border-radius: 5px;
     border: rgba(61, 61, 61, 0.582) solid 1px;
@@ -17,10 +18,26 @@
     position: relative;
     display: flex;
     flex-direction: column;
-
+    padding: 10px;
     border-radius: 5px;
     border: gray solid 1px;
     box-shadow: 2px 3px 8px rgba(93, 81, 81, 0.3);
+
+}
+
+#three {
+    width: 35vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: #4CAF50 solid 1px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+
+    align-items: end;
 
 }
 
@@ -41,9 +58,11 @@
     font-size: large;
     min-width: 35%;
     border-radius: 8px;
-
     margin: 3px;
     cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .ProductDetails {
@@ -73,6 +92,45 @@
 
 }
 
+.Rating {
+    /* height: 35vh;
+    width: 25vw;
+*/
+    min-width: 30%; 
+
+
+    gap: 20px;
+    align-content: space-between; 
+
+}
+
+.Review{
+    min-width: 60%;
+}
+
 .description {
     margin: 60px;
 }
+
+.prod_Image {
+    height: 100%;
+    width: 100%;
+
+    min-width: 100%;
+    object-fit: fill;
+    border-radius: 8px;
+}
+
+.prod_Info {
+    display: flex;
+    flex-direction: column;
+}
+
+.Cust_Img {
+    border-radius: 28px;
+    border: rgb(112, 25, 33) solid 1px;
+    height:100px;
+    width:100px;
+    margin: 15px;
+}
+
