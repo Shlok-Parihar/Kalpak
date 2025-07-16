@@ -37,7 +37,14 @@
 /* WhyChooseUs Section CSS */
 
 .WCU_Main {
-    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: 'relative';
+}
+
+.InfoCardGrid{
+    position: 'relative';
+    z-index: 1;
 }
 
 .info,
@@ -50,9 +57,10 @@
     margin: 5px;
     padding: 10px;
     border-radius: 10px;
-    border: #3900d7 solid 2px;
+    border: #778A6B solid 2px;
     text-align: center;
-    max-width: 10vw;
+    max-width: 12vw;
+    backdrop-filter: blur(3px);
 
 }
 
@@ -63,13 +71,27 @@
 .InfoCardsGrid2{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 30px;
     
 }
 .InfoCardsGrid3{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 30px
+}
+
+@font-face {
+  font-family: customFont;
+  src: url("../../../fonts/OleoScript-Regular.ttf");
+}
+
+.feats{
+    font-family:customFont;
+    font-size: 34px;
+    
 }
 
 #cards1{

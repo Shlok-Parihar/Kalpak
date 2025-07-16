@@ -10,6 +10,10 @@ const ProductPage = (p) => {
     const { id } = useParams();
     const product = prod.furniture.find(p => String(p.id) === String(id));
 
+    useEffect(() => {
+        window.scrollTo({top:"0%", behavior:"instant"})
+    })
+
     if (!product) return <div>Product not found</div>;
     return <>
         <div id='prodContainerMain'>
