@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
                 width: '100%',
                 height: '680px',
                 position: 'absolute',
-                top:790,
+                top:820,
                 left: 0,
                 zIndex: 0,
                 opacity: 0.2  // makes it non-intrusive
