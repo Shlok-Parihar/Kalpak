@@ -2,9 +2,17 @@ import React, { useState, useEffect } from 'react';
 // import "./Navbar2.css"
 import product from "../../data/DummyDB.json"
 import { Breadcrumb, Button, Badge } from "antd"
+import { useNavigate } from 'react-router-dom';
 
 const Navbar2 = () => {
     const [flag, setFlag] = useState(0)
+
+    const navigate = useNavigate()
+
+    const navToCart = () => {
+        navigate('/cart');
+    }
+
     // setFlag(some props or something that you use to fetch things in the local storage. 1 should be stored in the local storage. flag = 1)
     return <>
         <div style={{ display: "flex", flexDirection: "row", justifyContent: "space-between", alignItems: "center" }}>
@@ -21,7 +29,7 @@ const Navbar2 = () => {
                     }]
                 } />
             <Badge count={flag}>
-                <Button type='primary' color='green' variant='solid'>Go to Cart <img src='/images/cart.png' height={25} width={25} /></Button>
+                <Button type='primary' color='green' variant='solid' onClick={navToCart}>Go to Cart <img src='/images/cart.png' height={25} width={25} /></Button>
             </Badge>
         </div>
     </>

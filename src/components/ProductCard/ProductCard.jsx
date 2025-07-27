@@ -51,7 +51,7 @@ import "./ProductCard.css";
 const ProductCard = ({ id, name, image, dimension }) => {
   const navigate = useNavigate();
 
-  const navFun = () => {
+  const navToProduct = () => {
     console.log(id,"...")
     navigate(`/products/${id}`)
   }
@@ -62,7 +62,7 @@ const ProductCard = ({ id, name, image, dimension }) => {
       <img src={image} alt={name} className="prodImage" />
       <button
         className="prodButton"
-        onClick={navFun}
+        onClick={navToProduct}
       >
         <img src="/images/newTab.png" alt="new tab icon" height="25px" width="25px" />
       </button>
