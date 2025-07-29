@@ -2,28 +2,42 @@
   margin-top: 40px;
   background-color: rgb(255, 244, 239);
 }
+
 .left {
-  min-width: 70vw;
-  max-width: 70vw;
+  min-width: 59vw;
+  max-width: 59vw;
   min-height: 100vh;
   max-height: 100vh;
 
   margin-top: 20px;
-
+  padding: 2vw;
   background-color: rgb(255, 227, 213);
 }
 
 .right {
-  min-width: 30vw;
-  max-width: 30vw;
+  min-width: 35vw;
+  max-width: 35vw;
   min-height: 100vh;
   max-height: 100vh;
 
+  padding: 1vw;
   margin-top: 20px;
   background-color: rgb(255, 218, 175);
 }
 
-.title{
-    padding-left: 20px;
-    padding-right: 20px;
+.title {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cart-breadcrumbs {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.cart-font{
+  font-size: 20px;
+  font-family:'Segoe UI', sans-serif;
+  color:#720606;
 }
