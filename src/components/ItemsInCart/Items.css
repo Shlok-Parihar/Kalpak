@@ -1,9 +1,12 @@
 .mainItemsContainer{
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
+    background-color: aliceblue;
+
+    border: 1px solid black;
     justify-content: space-between;
-    box-shadow: 3px 3px 5px rgba(84, 84, 84, 0.8); 
+    box-shadow: 3px 3px 5px rgba(84, 84, 84, 0.8 ); 
 }
 
 .productDetails-InCart {

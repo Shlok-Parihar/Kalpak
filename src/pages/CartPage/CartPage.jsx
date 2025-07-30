@@ -3,11 +3,14 @@ import "./CartPage.css";
 import { Input, Breadcrumb, Button, Divider, Modal } from "antd";
 import Navbar from "../../components/Navbar/NavBar";
 import Items from "../../components/ItemsInCart/Items";
+import data from "../../data/DummyDB.json"
 
 const CartPage = () => {
 
-  const id = localStorage.getItem("cart")
-
+  const id = JSON.parse(localStorage.getItem("cart")) || [];
+  const productID = data.furniture.filter(item => id.includes(item.id))
+  console.log("this is your id - ", id)
+  console.table("this is your product id based product.", productID)
   const [showModal, setShowModal] = useState(false);
 
   const handleOK = () => {
@@ -46,7 +49,7 @@ const CartPage = () => {
           }}
         >
           <div className="left">
-            
+
             <h2>Your Items</h2>
             <li>1st item here populate me from id</li>
             <p>product detials list sort of a table</p>
@@ -56,11 +59,13 @@ const CartPage = () => {
             <p>now from localStorage get the id from the cart and use it to display the content metioned above.</p>
             <p>also price will be added with the + - like a counter instantly. </p>
 
+            {productID.map((i) => <Items
+              image={i.image}
+              name={i.name || "Product_Name"}
+              id={i.id}
+              price={i.price}
+            />)}
 
-            <Items
-            // name={idame}
-            
-            />
           </div>
 
           <div className="right">
