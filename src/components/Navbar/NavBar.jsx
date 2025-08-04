@@ -49,11 +49,11 @@ const Navbar = () => {
       <img src="/images/logo.png" alt="logo" height={50} width={60} />
 
       <div style={{ alignContent: "center", justifyContent: "center" }}>
-        <a className="navbarThings" href="#home">Home</a>
-        <a className="navbarThings" href="#products">Products</a>
-        <a className="navbarThings" href="#founder">Founder</a>
-        <a className="navbarThings" href="#testimonials">Testimonials</a>
-        <a className="navbarThings" href="#contactUs">Contact Us</a>
+        <a className="navbarThings" href="/#home">Home</a>
+        <a className="navbarThings" href="/#products">Products</a>
+        <a className="navbarThings" href="/#founder">Founder</a>
+        <a className="navbarThings" href="/#testimonials">Testimonials</a>
+        <a className="navbarThings" href="/#contactUs">Contact Us</a>
       </div>
 
       <div>

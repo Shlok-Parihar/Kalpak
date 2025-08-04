@@ -1,28 +1,29 @@
 .cartMainContainer {
   margin-top: 40px;
   background-color: rgb(255, 244, 239);
+
 }
 
 .left {
-  min-width: 59vw;
-  max-width: 59vw;
+  width: 60vw;
+  /* width: 59vw; */
   min-height: 100vh;
   max-height: 100vh;
 
   margin-top: 20px;
   padding: 2vw;
-  background-color: rgb(255, 227, 213);
+  /* background-color: rgb(255, 227, 213); */
 }
 
 .right {
-  min-width: 35vw;
-  max-width: 35vw;
+  width: 35vw;
+  /* max-width: 35vw; */
   min-height: 100vh;
   max-height: 100vh;
 
-  padding: 1vw;
+  padding: 2vw;
   margin-top: 20px;
-  background-color: rgb(255, 218, 175);
+  /* background-color: rgb(255, 218, 175); */
 }
 
 .title {

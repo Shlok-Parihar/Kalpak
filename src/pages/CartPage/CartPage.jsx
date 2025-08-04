@@ -3,14 +3,13 @@ import "./CartPage.css";
 import { Input, Breadcrumb, Button, Divider, Modal } from "antd";
 import Navbar from "../../components/Navbar/NavBar";
 import Items from "../../components/ItemsInCart/Items";
-import data from "../../data/DummyDB.json"
+import data from "../../data/DummyDB.json";
 
 const CartPage = () => {
-
   const id = JSON.parse(localStorage.getItem("cart")) || [];
-  const productID = data.furniture.filter(item => id.includes(item.id))
-  console.log("this is your id - ", id)
-  console.table("this is your product id based product.", productID)
+  const productID = data.furniture.filter((item) => id.includes(item.id));
+  console.log("this is your id - ", id);
+  console.table("this is your product id based product.", productID);
   const [showModal, setShowModal] = useState(false);
 
   const handleOK = () => {
@@ -49,32 +48,42 @@ const CartPage = () => {
           }}
         >
           <div className="left">
+            {productID.map((i) => (
+              <Items
+                image={i.image}
+                name={i.name || "Product_Name"}
+                id={i.id}
+                price={i.price}
+              />
+            ))}
 
-            <h2>Your Items</h2>
             <li>1st item here populate me from id</li>
             <p>product detials list sort of a table</p>
             <p>tbale has a counter on product quantity</p>
             <p>image title and price</p>
             <p>finally we got the product id in localStorage</p>
-            <p>now from localStorage get the id from the cart and use it to display the content metioned above.</p>
-            <p>also price will be added with the + - like a counter instantly. </p>
+            <p>
+              now from localStorage get the id from the cart and use it to
+              display the content metioned above.
+            </p>
+            <p>
+              also price will be added with the + - like a counter instantly.{" "}
+            </p>
+          
 
-            {productID.map((i) => <Items
-              image={i.image}
-              name={i.name || "Product_Name"}
-              id={i.id}
-              price={i.price}
-            />)}
-
+          <p> there are few issues here. find if you added a temp one.</p>
+          <p> border radius to the items card and if no cards then "Add something to your cart.!" friendly type message wirtten in translucent type text. </p>
           </div>
 
           <div className="right">
             <div style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
               <p className="cart-font">Promo Code : </p>
-              <Input style={{ maxWidth: "55%", height: "45px", alignSelf: "center" }}></Input>
+              <Input
+                style={{ maxWidth: "55%", height: "45px", alignSelf: "center" }}
+              ></Input>
             </div>
             <Divider />
-            <p>total cost</p>
+            <p>Total Amount</p>
 
             <Divider />
             <Divider />
