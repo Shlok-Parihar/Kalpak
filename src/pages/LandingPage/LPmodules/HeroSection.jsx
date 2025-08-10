@@ -7,7 +7,7 @@ import { Button } from "antd";
 // import kitchenImg from "../../../images/Kitchen.png"
 // import lvRoom2 from "../../../images/heroSectionCarousel-2.jpg"
 import { useScroll } from "framer-motion";
-import WoodenButton from "../../../components/WoodenButton/woodenButton";
+// import WoodenButton from "../../../components/WoodenButton/woodenButton";
 import ScrollVelocity from '../../../components/ReactBits/ScrollVelocity';
 import ShinyText from '../../../components/ReactBits/ShinyText';
 import wood from "../../.."
@@ -69,7 +69,7 @@ const HeroSection = () => {
 
             {/* <WoodenButton /> */}
 
-            <Button
+            {/* <Button
                 variant="solid"
                 size="large"
                 style={{
@@ -88,7 +88,7 @@ const HeroSection = () => {
                 onMouseLeave={() => setZ(0)}
             >
                 <ShinyText text="Buy Now" disabled={false} speed={2} className='custom-class' />
-            </Button>
+            </Button> */}
 
             <ScrollVelocity
                 texts={[' 50% Sale ', ' Premium Designs ']}

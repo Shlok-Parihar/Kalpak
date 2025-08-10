@@ -21,7 +21,7 @@
             "name": "Modern Sofa Set",
             "description": "A supremely comfortable L-shaped fabric sofa set, designed with modern aesthetics to complement any living space. Its plush cushions and ample seating provide ultimate relaxation.",
             "price": 9,
-            "image": "images/Product_Images/Modern_Sofa_Set.jpg",
+            "image": "/images/Product_Images/Modern_Sofa_Set.jpg",
             "category": {
                 "name": "Living Room",
                 "type": "Sofa"
@@ -37,7 +37,7 @@
             "name": "Study Chair",
             "description": "An ergonomic study chair featuring comprehensive adjustability for height and back support, ensuring optimal comfort during long hours of work or study. Its design promotes good posture and reduces strain.",
             "price": 4,
-            "image": "images/Product_Images/Study_Chair.jpg",
+            "image": "/images/Product_Images/Study_Chair.jpg",
             "category": {
                 "name": "Office",
                 "type": "Chair"
@@ -53,7 +53,7 @@
             "name": "Bedside Table",
             "description": "A compact and functional bedside table, perfect for smaller spaces. It includes a convenient drawer for discreet storage and an open shelf for easy access to your essentials.",
             "price": 3,
-            "image": "images/Product_Images/Bedside_Table.jpg",
+            "image": "/images/Product_Images/Bedside_Table.jpg",
             "category": {
                 "name": "Bedroom",
                 "type": "Table"
@@ -69,7 +69,7 @@
             "name": "Bookshelf",
             "description": "A versatile 5-tier open bookshelf crafted from durable engineered wood, offering ample space for organizing books, decorative items, and more. Its open design allows for easy access and a contemporary look.",
             "price": 6,
-            "image": "images/Product_Images/Bookshelf.jpg",
+            "image": "/images/Product_Images/Bookshelf.jpg",
             "category": {
                 "name": "Study",
                 "type": "Shelf"
@@ -85,7 +85,7 @@
             "name": "Recliner Armchair",
             "description": "A luxurious and plush recliner armchair designed for ultimate relaxation. It features an easily adjustable backrest and an integrated footrest, allowing you to find your perfect lounging position.",
             "price": 8,
-            "image": "images/Product_Images/Recliner_Armchair.jpg",
+            "image": "/images/Product_Images/Recliner_Armchair.jpg",
             "category": {
                 "name": "Living Room",
                 "type": "Chair"
@@ -101,7 +101,7 @@
             "name": "Glass Coffee Table",
             "description": "A sleek and minimalist coffee table featuring a durable tempered glass top, perfect for adding a touch of modern elegance to your living room. Its transparent surface creates an open and airy feel.",
             "price": 5,
-            "image": "images/Product_Images/Glass_Coffee_Table.jpg",
+            "image": "/images/Product_Images/Glass_Coffee_Table.jpg",
             "category": {
                 "name": "Living Room",
                 "type": "Table"
@@ -117,7 +117,7 @@
             "name": "Wardrobe",
             "description": "A spacious and highly functional 3-door wardrobe, offering extensive storage solutions for your bedroom. It includes a full-length mirror and multiple drawers for organized clothing and accessories.",
             "price": 10,
-            "image": "images/Product_Images/Wardrobe.jpg",
+            "image": "/images/Product_Images/Wardrobe.jpg",
             "category": {
                 "name": "Bedroom",
                 "type": "Wardrobe"
@@ -133,7 +133,7 @@
             "name": "Kids Study Desk",
             "description": "A vibrant and colorful study desk specifically designed for children, featuring integrated storage compartments to help keep their study area neat and organized. It's the perfect size for homework and creative activities.",
             "price": 4,
-            "image": "images/Product_Images/Kids_Study_Desk.jpg",
+            "image": "/images/Product_Images/Kids_Study_Desk.jpg",
             "category": {
                 "name": "Kids Room",
                 "type": "Desk"
@@ -149,7 +149,7 @@
             "name": "Outdoor Patio Set",
             "description": "A durable and weather-resistant outdoor patio set, perfect for entertaining or relaxing in your garden or on your balcony. It includes four comfortable chairs and a matching table, built to withstand the elements.",
             "price": 12,
-            "image": "images/Product_Images/Outdoor_Patio_Set.jpg",
+            "image": "/images/Product_Images/Outdoor_Patio_Set.jpg",
             "category": {
                 "name": "Outdoor",
                 "type": "Set"

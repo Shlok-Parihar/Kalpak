@@ -7,7 +7,7 @@ const Items = ({ image, name, id, dimensions, price }) => {
   //     console.log("I have Arrived")
   // }, [])
 
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   const handleAdd = () => {
     if (count >= 25) {
@@ -45,7 +45,7 @@ const Items = ({ image, name, id, dimensions, price }) => {
           <div className="productDetails-InCart">
             <h2 style={{ fontFamily: "Geneva", marginTop: "5px" }}>{name}</h2>
             <p>Product ID : {id}</p>
-            <p>Dimensions : {dimensions}</p>
+            <p>Dimensions : {`${dimensions}`}</p>
             {/* <p>Quantity : {quantity}</p> */}
             <div style={{ display: "flex", flexDirection: "row" }}>
               {/* <Button onClick={() => setCount(++count)}><h2>Remove</h2></Button>
@@ -61,7 +61,8 @@ const Items = ({ image, name, id, dimensions, price }) => {
               display: "flex",
               flexDirection: "row",
               gap: "10px",
-              alignSelf: "center",
+              alignItems: "center",
+              justifyContent:"center"
             }}
           >
             <Button onClick={handleAdd}>+</Button>

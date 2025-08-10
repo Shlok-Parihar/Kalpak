@@ -21,6 +21,16 @@ const CartPage = () => {
     setShowModal(true);
   };
 
+  // useEffect(() => {
+  //   if (id.length || productID.length === 0) {
+  //     return (
+  //       <>
+  //         <div>Find something you like !</div>
+  //       </>
+  //     );                                // FIX ME : says destory is not a function error.
+  //   }
+  // }, []);
+
   const breadcrumbs = [
     {
       title: "Home",
@@ -54,6 +64,7 @@ const CartPage = () => {
                 name={i.name || "Product_Name"}
                 id={i.id}
                 price={i.price}
+                dimensions={`${i.dimensions.length} x ${i.dimensions.height} x ${i.dimensions.width}`}
               />
             ))}
 
@@ -69,10 +80,14 @@ const CartPage = () => {
             <p>
               also price will be added with the + - like a counter instantly.{" "}
             </p>
-          
 
-          <p> there are few issues here. find if you added a temp one.</p>
-          <p> border radius to the items card and if no cards then "Add something to your cart.!" friendly type message wirtten in translucent type text. </p>
+            <p> there are few issues here. find if you added a temp one.</p>
+            <p>
+              {" "}
+              border radius to the items card and if no cards then "Add
+              something to your cart.!" friendly type message wirtten in
+              translucent type text.{" "}
+            </p>
           </div>
 
           <div className="right">
